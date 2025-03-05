@@ -1432,7 +1432,7 @@ body.dark-mode .main-banner:after {
 
 .thebanner:after {
   content: "";
- 
+
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -1442,7 +1442,6 @@ body.dark-mode .main-banner:after {
   height: 100%;
   z-index: 1;
 }
-
 
 .dark-mode p {
   color: white !important;
@@ -2565,18 +2564,18 @@ responsive
     font-size: 50px;
     margin-bottom: 20px;
   }
-  
+
   .thebanner .left-content p {
     margin-bottom: 45px;
   }
-  
+
   @media (max-width: 992px) {
     .dark-mode .thebanner .left-content h2 {
       color: white;
       margin-right: 0;
     }
   }
-  
+
   @media (max-width: 992px) {
     .header-area {
       background-color: #fff;
@@ -2617,7 +2616,7 @@ responsive
       text-align: center;
     }
   }
-  
+
   .features-item {
     margin-bottom: 45px;
   }
@@ -2851,7 +2850,7 @@ output {
   margin-bottom: 8px; /* Aumentei o espaçamento */
   font-size: 16px;
 }
-.dark-mode .form-group label{
+.dark-mode .form-group label {
   color: whitesmoke !important;
 }
 /* Estilização dos inputs e textarea */
@@ -2906,6 +2905,6 @@ output {
     width: 100%;
   }
 }
-.opyum{
+.opyum {
   color: #0056b3 !important;
 }
