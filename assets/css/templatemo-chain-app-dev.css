@@ -2113,13 +2113,15 @@ Footer Style
 
 footer {
   background-image: url(../images/footer.gif);
-  background-position: center top;
+  background-position: center 580px; /* Ajuste o valor conforme necessário */
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 130px;
-  padding-top: 300px;
-  padding-bottom: 60px;
+  background-size: contain;
+  margin-top: 300px;
+  padding-bottom: 200px;
+  min-height: 400px; /* Garante espaço extra para a imagem */
 }
+
+
 
 footer .section-heading {
   margin-bottom: 45px;
@@ -2832,6 +2834,16 @@ output {
 /* Estilização do container do formulário */
 /* Estilização do container do formulário */
 .col-md-10 {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255); /* Fundo semi-transparente */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.521);
+  backdrop-filter: blur(60px); /* Efeito de blur */
+  -webkit-backdrop-filter: blur(10px);
+}
+.dark-mode .col-md-10 {
   max-width: 600px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
