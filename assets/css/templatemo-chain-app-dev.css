@@ -1630,6 +1630,12 @@ body.dark-mode .service-item {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about-us .box-item:hover {
+  background-image: url(../images/service-bg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*
 ---------------------------------------------
@@ -1681,10 +1687,10 @@ body.dark-mode .about-us .box-item h4 a {
 }
 
 .about-us .box-item:hover h4 a {
-  color: #4b8ef1;
+  color: #ffffff;
 }
 body.dark-mode .about-us .box-item:hover h4 a {
-  color: #4b8ef1; /* Cor do hover no modo escuro */
+  color: #ffffff; /* Cor do hover no modo escuro */
 }
 .about-us .gradient-button {
   margin-top: 30px;
